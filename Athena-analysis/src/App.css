@@ -1,0 +1,102 @@
+#root {
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 60px);
+    height: calc(100vh - 60px);
+    overflow-y: hidden;
+    padding: 30px 30px;
+}
+
+.column {
+    height: calc(100% - 60px);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+
+.left {
+    height: fit-content;
+    flex: 0.7;
+    margin: 30px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.text {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+#inputCV {
+    display: none;
+}
+
+.labelInputCv {
+    background-color: #0099ff;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.labelInputCv:hover {
+    cursor: pointer;
+    background-color: #007acc;
+}
+
+.response {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: rgb(230, 237, 243);
+    margin-top: 30px;
+
+    width: calc(100% - 40px);
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: calc(100% - 40px);
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        flex-direction: column;
+        overflow: auto;
+        padding: 0vh 10vw;
+        width: 80vw;
+        padding-bottom: 30vh;
+    }
+
+    .column {
+        height: auto;
+    }
+
+    .right {
+        padding: 0px;
+    }
+}
