@@ -3,7 +3,7 @@
 <image src="https://github.com/RickkCastro/Athena-Analysis/assets/75331070/dfdd2e9d-eb79-491f-8969-6f1a057ff6db" width="50%"/>
 <br></br>
 
-<a href='https://github.com/matiassingers/awesome-readme](https://rickkcastro-athena-analysis.vercel.app'>FAÇA UMA ANÁLISE DO SEU CURRÍCULO AGORA MESMO! 🤖</a>
+<a href='https://rickkcastro-athena-analysis.vercel.app'>FAÇA UMA ANÁLISE DO SEU CURRÍCULO AGORA MESMO! 🤖</a>
 
 Desenvolvido para auxiliar na jornada profissional, o projeto Athena utiliza o poder da inteligência artificial para analisar e aprimorar currículos. Através da avançada API do Google Gemini, a plataforma identifica os pontos fortes do seu currículo e sugere melhorias, potencializando suas chances de sucesso. </br>
 
