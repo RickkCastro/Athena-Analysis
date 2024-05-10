@@ -1,5 +1,10 @@
 <h1> Athena, sua aliada na busca pelo emprego ideal :bulb::blue_heart:</h1>
 
+
+<image src="https://github.com/RickkCastro/Athena-Analysis/assets/75331070/dfdd2e9d-eb79-491f-8969-6f1a057ff6db" width="50%"/>
+<br></br>
+
+
 Desenvolvido para auxiliar na jornada profissional, o projeto Athena utiliza o poder da inteligência artificial para analisar e aprimorar currículos. Através da avançada API do Google Gemini, a plataforma identifica os pontos fortes do seu currículo e sugere melhorias, potencializando suas chances de sucesso. </br>
 
 Com uma interface intuitiva, construída com tecnologias como React e NodeJS, Athena torna o processo de otimização do currículo eficiente e acessível. Carregue seu currículo em PDF e receba insights valiosos para se destacar na busca pelo emprego dos seus sonhos. </br>
