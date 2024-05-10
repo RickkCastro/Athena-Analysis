@@ -125,3 +125,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => res.send("Express on Vercel"));
+
+export default app;
