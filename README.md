@@ -44,6 +44,37 @@
   Esse projeto me ajudou de verdade e espero que consiga ajudar outras pessoas da mesma forma. 💜
 </p>
 
+<h2>⚙️ Funcionamento</h2>
+<p>
+  A Athena Analysis funciona via 2 aplicações, Athena-analysis-API e o athena-analysis. <br>
+  As duas aplicações estão nesse repositório em suas respectivas pastas e estão hospedadas na plataforma Vercel.
+  <h3>Athena-analysis-API</h3>
+  <p>
+    É um API desenvolvida em nodeJS e express que possui apenas uma rota /sendCV, ele foi desenvolvida com o intuito de receber um arquivo .pdf e retornar a resposta do Gemini sobre o currículo.
+  </p>
+  <ul>
+    <li>
+      <h4>Recepção do Currículo em PDF:</h4>
+      <p>Ao acessar a rota /sendCV, os usuários podem enviar seus currículos em formato PDF. A API processa essa requisição, identificando-a como uma submissão de arquivo PDF no formato application/pdf</p>
+    </li>
+    <li>
+  <h4>Extração de Dados:</h4>
+  <p>Utilizando a biblioteca pdf-parse, a API extrai informações cruciais do currículo, como experiência profissional, habilidades, educação e detalhes de contato. Essa extração é essencial para a análise subsequente.</p>
+</li>
+
+<li>
+  <h4>Chamada à IA Gemini:</h4>
+  <p>Com o texto extraído, a API invoca a poderosa IA Gemini. Utilizando um prompt personalizado, a API fornece à IA todas as informações necessárias. Que, então, realiza uma análise completa do conteúdo do currículo.</p>
+</li>
+
+<li>
+  <h4>Formatação:</h4>
+  <p>Após receber a análise, a API a formata habilmente em HTML. Isso garante que a análise seja apresentada de forma legível e organizada. A análise formatada é então enviada como resposta à rota /sendCV.</p>
+</li>
+
+  </ul>
+</p>
+
 <h2>:space_invader: Tecnologias utilizadas</h3>
 
 <p style="display: inline_block"><br>
