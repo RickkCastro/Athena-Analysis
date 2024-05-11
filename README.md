@@ -1,4 +1,7 @@
-<h1 align='center'> Athena, sua aliada na busca pelo emprego ideal :bulb::blue_heart:</h1>
+<h1 align='center'> 
+  Athena Analysis, O poder da IA para otimizar seu currículo. :bulb::blue_heart:
+</h1>
+
 
 <p align='center'>
   <image src="https://github.com/RickkCastro/Athena-Analysis/assets/75331070/dfdd2e9d-eb79-491f-8969-6f1a057ff6db" width="70%"/>
@@ -8,7 +11,7 @@
   🧐 O que é?
 </h2>
 <p>
-  Desenvolvido para auxiliar na jornada profissional, o projeto Athena utiliza o poder da inteligência artificial para analisar e aprimorar currículos. Através da avançada API do Google Gemini, a plataforma identifica os pontos fortes do seu currículo e sugere   melhorias, potencializando suas chances de sucesso. </br>
+  Desenvolvido para auxiliar na jornada profissional, o projeto Athena Analysis utiliza o poder da inteligência artificial para analisar e aprimorar currículos. Através da avançada API do Google Gemini, a plataforma identifica os pontos fortes do seu currículo e sugere   melhorias, potencializando suas chances de sucesso. </br>
 
   Com uma interface intuitiva, construída com tecnologias como React e NodeJS, Athena torna o processo de otimização do currículo eficiente e acessível. Carregue seu currículo em PDF e receba insights valiosos para se destacar na busca pelo emprego dos seus sonhos. </br>
 
@@ -39,7 +42,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" width="90"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="90"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1024px-Google_Gemini_logo.svg.png" width="90"/>
-</p>
+</p><br>
 
 <h2>📄 Política de Privacidade</h2>
 <p>Ao utilizar nossa plataforma, você concorda com a <a href='https://support.google.com/gemini/answer/13594961?visit_id=638510543747647131-82631580&p=privacy_help&rd=1'>política de Privacidade</a> do Gemini</p>
