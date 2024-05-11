@@ -58,21 +58,21 @@
       <p>Ao acessar a rota /sendCV, os usuários podem enviar seus currículos em formato PDF. A API processa essa requisição, identificando-a como uma submissão de arquivo PDF no formato application/pdf</p>
     </li>
     <li>
-  <h4>Extração de Dados:</h4>
-  <p>Utilizando a biblioteca pdf-parse, a API extrai informações cruciais do currículo, como experiência profissional, habilidades, educação e detalhes de contato. Essa extração é essencial para a análise subsequente.</p>
-</li>
-
-<li>
-  <h4>Chamada à IA Gemini:</h4>
-  <p>Com o texto extraído, a API invoca a poderosa IA Gemini. Utilizando um prompt personalizado, a API fornece à IA todas as informações necessárias. Que, então, realiza uma análise completa do conteúdo do currículo.</p>
-</li>
-
-<li>
-  <h4>Formatação:</h4>
-  <p>Após receber a análise, a API a formata habilmente em HTML. Isso garante que a análise seja apresentada de forma legível e organizada. A análise formatada é então enviada como resposta à rota /sendCV.</p>
-</li>
-
+      <h4>Extração de Dados:</h4>
+      <p>Utilizando a biblioteca pdf-parse, a API extrai informações cruciais do currículo, como experiência profissional, habilidades, educação e detalhes de contato. Essa extração é essencial para a análise subsequente.</p>
+    </li>
+    <li>
+      <h4>Chamada à IA Gemini:</h4>
+      <p>Com o texto extraído, a API invoca a poderosa IA Gemini. Utilizando um prompt personalizado, a API fornece à IA todas as informações necessárias. Que, então, realiza uma análise completa do conteúdo do currículo.</p>
+    </li>
+    <li>
+      <h4>Formatação:</h4>
+      <p>Após receber a análise, a API a formata habilmente em HTML. Isso garante que a análise seja apresentada de forma legível e organizada. A análise formatada é então enviada como resposta à rota /sendCV.</p>
+    </li>
   </ul>
+  <h3>Athena-analysis</h3>
+  <p>A parte “visual” deste projeto. Desenvolvido em React com o framework Vite. Ela desempenha um papel crucial ao oferecer aos usuários uma experiência intuitiva, que utiliza o funcionamento completo da API. O frontend apresenta um formulário com um campo de entrada para o envio do currículo. Após o envio, realiza uma chamada à API e, ao receber a resposta, exibe os resultados de forma clara e organizada na tela.
+</p>
 </p>
 
 <h2>:space_invader: Tecnologias utilizadas</h3>
