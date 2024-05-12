@@ -35,7 +35,7 @@
   A precisão da API do Google Gemini, integrada ao Athena, assegura a identificação precisa dos seus pontos fortes e áreas de aprimoramento, fornecendo insights direcionados para maximizar suas chances de sucesso em processos seletivos. </br>
 </p>
 
-<h2>💪 proposito</h2>
+<h2>💪 Propósito</h2>
 <p>
   Olá, eu sou o Henrique Castro, criador da Athena Analysis. Sempre tive dificuldade em escrever currículos. Nunca sabia se estava destacando minhas habilidades da maneira certa. Então, participando da Imersão Inteligência Artificial 2ª Edição da Alura e em um   momento onde estava atualizando meu currículo, tive essa ideia. 
   <br><br>
